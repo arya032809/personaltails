@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Tails Memories Blog</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: yellow;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #34495e;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    footer {
+      background-color: #34495e;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+    main {
+      padding: 20px;
+      max-width: 350px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      color: #34495e;
+      margin-bottom: 30px;
+    }
+    .memories {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .memory-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .memory-card:hover {
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      transform: translateY(-5px);
+    }
+    .memory-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+    .memory-content {
+      padding: 15px 20px;
+    }
+    .memory-title {
+      margin: 0 0 8px;
+      font-size: 1.2rem;
+      color: #2c3e50;
+      font-weight: 600;
+    }
+    .memory-text {
+      margin: 0;
+      font-size: 0.95rem;
+      line-height: 1.4;
+      color: #555;
+    }
+    nav {
+      margin: 30px 0;
+      text-align: center;
+    }
+    nav a {
+      display: block;
+      margin: 5px 0;
+      color: #2c3e50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .logo-img {
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      display: block;
+      margin: 20px auto 0;
+    }
+    @media (max-width: 400px) {
+      main {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Personal Tails Blog</h1>
+    <p>Memories with paws and heart</p>
+  </header>
+
+  <main>
+    <h1>My Memories Blog</h1>
+    <section class="memories">
+      <!-- Memory Card 1 -->
+      <article class="memory-card">
+        <img class="memory-img" src="C:\Users\Clone\OneDrive\html & webpage\traveling with pet.jpeg" alt="Travelling with pets" />
+        <div class="memory-content">
+          <h2 class="memory-title">Travelling with Pets</h2>
+          <p class="memory-text">A joyful trip exploring beaches and parks with my furry friend. We shared unforgettable moments and new adventures every day. Quote - "Best part of my life will be always him"</p>
+        </div>
+      </article>
+
+      <!-- Memory Card 2 -->
+      <article class="memory-card">
+        <img class="memory-img" src="C:\Users\Clone\OneDrive\html & webpage\thinking.jpeg" alt="Exploring new ways" />
+        <div class="memory-content">
+          <h2 class="memory-title">Exploring New Ways</h2>
+          <p class="memory-text">Stepping off the beaten path to discover hidden gems in the city. Every new street had a story waiting to be uncovered.</p>
+        </div>
+      </article>
+
+      <!-- Memory Card 3 -->
+      <article class="memory-card">
+        <img class="memory-img" src="C:\Users\Clone\OneDrive\html & webpage\thinking.jpeg" alt="Emotional memories of college" />
+        <div class="memory-content">
+          <h2 class="memory-title">Emotional Memories of College</h2>
+          <p class="memory-text">Cherished moments with friends, late-night study sessions, and life lessons that shaped who I am today.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Navigation Links -->
+    <nav>
+      <a href="welcomeTTT.html">WELCOME / HOME</a>
+      <a href="TTTBLOG.html">1. INTRODUCTION</a>
+      <a href="TTTGBLOG3.html">2. PAWPERFECT</a>
+      <a href="memories.html">3. MEMORIES</a>
+      <a href="feedback.html">FEEDBACK</a>
+    </nav>
+
+    <!-- Logo -->
+    <img src="C:\Users\Clone\Documents\html & webpage\logo.jpg" alt="Personal Tails" class="logo-img" />
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Personal Tails Blog. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
